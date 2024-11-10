@@ -1,0 +1,85 @@
+[16:36:25] [ServerMain/INFO]: [bootstrap] Running Java 22 (Java HotSpot(TM) 64-Bit Server VM 22.0.1+8-16; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[16:36:25] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-25-master@1ef4c0e (2024-11-10T00:30:27Z) for Minecraft 1.21.3
+[16:36:25] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:36:25] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\GriefPrevention.jar'...
+[16:36:26] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\GriefPrevention.jar' in 396ms.
+[16:36:26] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[16:36:26] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - GriefPrevention (16.18.4)
+[16:36:29] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:36:30] [ServerMain/INFO]: Loaded 1337 recipes
+[16:36:30] [ServerMain/INFO]: Loaded 1448 advancements
+[16:36:30] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[16:36:30] [Server thread/INFO]: Loading properties
+[16:36:30] [Server thread/INFO]: This server is running Paper version 1.21.3-25-master@1ef4c0e (2024-11-10T00:30:27Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[16:36:30] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[16:36:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:36:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:36:31] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseCommon] Paper is using 8 worker threads, 1 I/O threads
+[16:36:31] [Server thread/INFO]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[16:36:31] [Server thread/INFO]: Default game type: SURVIVAL
+[16:36:31] [Server thread/INFO]: Generating keypair
+[16:36:31] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:36:31] [Server thread/INFO]: Using default channel type
+[16:36:31] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[16:36:31] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[16:36:31] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18.4
+[16:36:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:36:31] [Server thread/INFO]: Preparing level "world"
+[16:36:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:36:32] [Server thread/INFO]: Preparing spawn area: 0%
+[16:36:32] [Paper Common Worker #6/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[16:36:32] [Paper Common Worker #6/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 182.7ms
+[16:36:32] [Server thread/INFO]: Preparing spawn area: 97%
+[16:36:33] [Server thread/INFO]: Time elapsed: 710 ms
+[16:36:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:36:33] [Server thread/INFO]: Preparing spawn area: 0%
+[16:36:33] [Server thread/INFO]: Time elapsed: 84 ms
+[16:36:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:36:33] [Server thread/INFO]: Preparing spawn area: 0%
+[16:36:33] [Server thread/INFO]: Time elapsed: 47 ms
+[16:36:33] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.4
+[16:36:33] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[16:36:33] [Server thread/INFO]: [GriefPrevention] 0 total claims loaded.
+[16:36:33] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[16:36:33] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[16:36:33] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[16:36:33] [Server thread/INFO]: [spark] Starting background profiler...
+[16:36:33] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[16:36:33] [Server thread/INFO]: Done preparing level "world" (2.010s)
+[16:36:33] [Server thread/INFO]: Running delayed init tasks
+[16:36:33] [Server thread/INFO]: Done (8.962s)! For help, type "help"
+[16:39:05] [Server thread/INFO]: Stopping server
+[16:39:05] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.18.4
+[16:39:05] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[16:39:05] [Server thread/INFO]: Saving players
+[16:39:05] [Server thread/INFO]: Saving worlds
+[16:39:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:39:05] [Server thread/INFO]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:39:05] [Server thread/INFO]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkHolderManager] Halted chunk system for world 'world'
+[16:39:05] [Server thread/INFO]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:39:05] [Server thread/INFO]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.11s
+[16:39:05] [Server thread/INFO]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[16:39:05] [Server thread/INFO]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkHolderManager] Halted I/O scheduler for world 'world'
+[16:39:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:39:05] [Server thread/INFO]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:39:05] [Server thread/INFO]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:39:05] [Server thread/INFO]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:39:05] [Server thread/INFO]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.02s
+[16:39:05] [Server thread/INFO]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[16:39:05] [Server thread/INFO]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[16:39:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:39:05] [Server thread/INFO]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:39:05] [Server thread/INFO]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:39:05] [Server thread/INFO]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:39:05] [Server thread/INFO]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s
+[16:39:05] [Server thread/INFO]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[16:39:05] [Server thread/INFO]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[16:39:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:39:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:39:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:39:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:39:05] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[16:39:05] [Server thread/INFO]: All I/O tasks to complete
+[16:39:05] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[16:39:05] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
