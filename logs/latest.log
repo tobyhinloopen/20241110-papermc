@@ -1,97 +1,99 @@
-[12:33:26] [ServerMain/INFO]: [bootstrap] Running Java 22 (Java HotSpot(TM) 64-Bit Server VM 22.0.1+8-16; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[12:33:26] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-67-main@a81990e (2024-12-30T10:10:26Z) for Minecraft 1.21.4
-[12:33:27] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[12:33:27] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Remapping server...
-[12:33:30] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Done remapping server in 2669ms.
-[12:33:30] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins\GriefPrevention.jar'...
-[12:33:30] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins\GriefPrevention.jar' in 79ms.
-[12:33:30] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
-[12:33:30] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+[13:40:01] [ServerMain/INFO]: [bootstrap] Running Java 22 (Java HotSpot(TM) 64-Bit Server VM 22.0.1+8-16; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[13:40:01] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) for Minecraft 1.21.8
+[13:40:02] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:40:02] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Remapping server...
+[13:40:05] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Done remapping server in 2676ms.
+[13:40:05] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins\GriefPrevention.jar'...
+[13:40:05] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins\GriefPrevention.jar' in 106ms.
+[13:40:05] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[13:40:05] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
  - GriefPrevention (16.18.4)
-[12:33:33] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[12:33:34] [ServerMain/INFO]: Loaded 1370 recipes
-[12:33:34] [ServerMain/INFO]: Loaded 1481 advancements
-[12:33:34] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[12:33:34] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 125.3ms
-[12:33:34] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[12:33:34] [Server thread/INFO]: Loading properties
-[12:33:34] [Server thread/INFO]: This server is running Paper version 1.21.4-67-main@a81990e (2024-12-30T10:10:26Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[12:33:34] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[12:33:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[12:33:34] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:33:34] [Server thread/INFO]: [MoonriseCommon] Paper is using 8 worker threads, 1 I/O threads
-[12:33:34] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[12:33:35] [Server thread/INFO]: Default game type: SURVIVAL
-[12:33:35] [Server thread/INFO]: Generating keypair
-[12:33:35] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:33:35] [Server thread/INFO]: Using default channel type
-[12:33:35] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[12:33:35] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[12:33:35] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18.4
-[12:33:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[12:33:35] [Server thread/INFO]: Preparing level "world"
-[12:33:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:33:36] [Server thread/INFO]: Preparing spawn area: 0%
-[12:33:36] [Server thread/INFO]: Preparing spawn area: 2%
-[12:33:36] [Server thread/INFO]: Time elapsed: 551 ms
-[12:33:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[12:33:36] [Server thread/INFO]: Preparing spawn area: 0%
-[12:33:36] [Server thread/INFO]: Time elapsed: 64 ms
-[12:33:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[12:33:36] [Server thread/INFO]: Preparing spawn area: 0%
-[12:33:36] [Server thread/INFO]: Time elapsed: 36 ms
-[12:33:36] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.4
-[12:33:36] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
-[12:33:36] [Server thread/INFO]: [GriefPrevention] 5 total claims loaded.
-[12:33:36] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
-[12:33:36] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
-[12:33:36] [Server thread/INFO]: [GriefPrevention] Boot finished.
-[12:33:36] [Server thread/INFO]: [spark] Starting background profiler...
-[12:33:36] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[12:33:36] [Server thread/INFO]: Done preparing level "world" (1.623s)
-[12:33:36] [Server thread/INFO]: Running delayed init tasks
-[12:33:36] [Server thread/INFO]: Done (11.016s)! For help, type "help"
-[12:33:37] [User Authenticator #0/INFO]: UUID of player VanessaVlinder is f5ce989e-dd17-477a-b21e-40c101151176
-[12:33:37] [Server thread/INFO]: VanessaVlinder joined the game
-[12:33:37] [Server thread/INFO]: VanessaVlinder[/192.168.0.242:56526] logged in with entity id 55 at ([world]18.244397351674152, 72.0, -15.636740266825951)
-[12:34:30] [Server thread/INFO]: VanessaVlinder issued server command: /kill
-[12:34:39] [Server thread/INFO]: [@: Teleported VanessaVlinder to 1660.500000, 64.000000, -3122.500000]
-[12:35:06] [Server thread/INFO]: [@: Teleported VanessaVlinder to 999.500000, 20.000000, 1000.500000]
-[12:35:17] [Server thread/INFO]: [@: Teleported VanessaVlinder to 1657.500000, 64.000000, -3123.500000]
-[12:51:44] [Server thread/INFO]: VanessaVlinder lost connection: Disconnected
-[12:51:44] [Server thread/INFO]: VanessaVlinder left the game
-[18:09:30] [Server thread/INFO]: Stopping the server
-[18:09:30] [Server thread/INFO]: Stopping server
-[18:09:30] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.18.4
-[18:09:30] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
-[18:09:30] [Server thread/INFO]: Saving players
-[18:09:30] [Server thread/INFO]: Saving worlds
-[18:09:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:09:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[18:09:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[18:09:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[18:09:30] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 33 entity chunks, 0 poi chunks in world 'world' in 0.05s
-[18:09:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[18:09:30] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[18:09:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[18:09:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[18:09:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[18:09:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[18:09:31] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[18:09:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[18:09:31] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[18:09:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[18:09:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[18:09:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[18:09:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[18:09:31] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
-[18:09:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[18:09:31] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[18:09:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:09:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:09:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:09:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[18:09:31] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[18:09:31] [Server thread/INFO]: All I/O tasks to complete
-[18:09:31] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[18:09:31] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[13:40:09] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:40:10] [ServerMain/INFO]: Loaded 1407 recipes
+[13:40:10] [ServerMain/INFO]: Loaded 1520 advancements
+[13:40:10] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[13:40:10] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 229.5ms
+[13:40:10] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[13:40:10] [Server thread/INFO]: Loading properties
+[13:40:10] [Server thread/INFO]: This server is running Paper version 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[13:40:10] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[13:40:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:40:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:40:11] [Server thread/INFO]: [MoonriseCommon] Paper is using 8 worker threads, 1 I/O threads
+[13:40:11] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[13:40:11] [Server thread/INFO]: Default game type: SURVIVAL
+[13:40:11] [Server thread/INFO]: Generating keypair
+[13:40:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:40:11] [Server thread/INFO]: Using default channel type
+[13:40:11] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[13:40:11] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[13:40:11] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18.4
+[13:40:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:40:11] [Server thread/INFO]: Preparing level "world"
+[13:40:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:40:12] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:13] [Server thread/INFO]: Preparing spawn area: 2%
+[13:40:13] [Server thread/INFO]: Time elapsed: 662 ms
+[13:40:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:40:13] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:13] [Server thread/INFO]: Time elapsed: 60 ms
+[13:40:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:40:13] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:13] [Server thread/INFO]: Time elapsed: 41 ms
+[13:40:13] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.4
+[13:40:13] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[13:40:13] [Server thread/INFO]: [GriefPrevention] 5 total claims loaded.
+[13:40:13] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[13:40:13] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[13:40:13] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[13:40:13] [Server thread/INFO]: [spark] Starting background profiler...
+[13:40:13] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[13:40:13] [Server thread/INFO]: Done preparing level "world" (2.126s)
+[13:40:13] [Server thread/INFO]: Running delayed init tasks
+[13:40:13] [Server thread/INFO]: Done (12.653s)! For help, type "help"
+[13:42:13] [Server thread/INFO]: [GriefPrevention]  All of Becky1360's claims have expired.
+[13:42:29] [User Authenticator #0/INFO]: UUID of player Gamebuster801 is 3463677f-a213-4ebb-9bf4-3b8ca6a2ad35
+[13:42:29] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [GriefPrevention]
+[13:42:29] [Server thread/INFO]: Gamebuster801 joined the game
+[13:42:29] [Server thread/INFO]: Gamebuster801[/192.168.0.11:52667] logged in with entity id 12 at ([world]999.3016682540683, 20.0, 1005.3792077511638)
+[13:42:39] [Server thread/INFO]: [@: Teleported Gamebuster801 to 1657.500000, 64.000000, -3123.500000]
+[13:42:47] [Server thread/INFO]: [@: Teleported Gamebuster801 to 999.500000, 20.000000, 1000.500000]
+[13:42:54] [Server thread/INFO]: [@: Teleported Gamebuster801 to 1657.500000, 64.000000, -3123.500000]
+[13:43:12] [Server thread/INFO]: [@: Teleported Gamebuster801 to 999.500000, 20.000000, 1000.500000]
+[13:43:13] [Server thread/INFO]: [GriefPrevention]  VanessaVlinder's new player claim expired.
+[13:43:14] [Server thread/INFO]: Gamebuster801 lost connection: Disconnected
+[13:43:14] [Server thread/INFO]: Gamebuster801 left the game
+[13:43:32] [Server thread/INFO]: Stopping server
+[13:43:32] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.18.4
+[13:43:32] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[13:43:32] [Server thread/INFO]: Saving players
+[13:43:32] [Server thread/INFO]: Saving worlds
+[13:43:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:43:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[13:43:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[13:43:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[13:43:32] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.06s
+[13:43:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[13:43:32] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[13:43:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[13:43:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[13:43:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[13:43:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[13:43:32] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.03s
+[13:43:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[13:43:32] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[13:43:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[13:43:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[13:43:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[13:43:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[13:43:32] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s
+[13:43:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[13:43:32] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[13:43:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:43:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:43:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:43:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:43:32] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[13:43:32] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[13:43:32] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[13:43:32] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
