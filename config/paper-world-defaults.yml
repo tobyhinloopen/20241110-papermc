@@ -170,6 +170,9 @@ entities:
       water_creature:
         hard: default
         soft: default
+    despawn-time:
+      llama_spit: disabled
+      snowball: disabled
     disable-mob-spawner-spawn-egg-transformation: false
     duplicate-uuid:
       mode: SAFE_REGEN
@@ -229,7 +232,6 @@ entities:
 environment:
   disable-explosion-knockback: false
   disable-ice-and-snow: false
-  disable-teleportation-suffocation-check: false
   disable-thunder: false
   fire-tick-delay: 30
   frosted-ice:
