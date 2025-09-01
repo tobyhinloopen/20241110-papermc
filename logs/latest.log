@@ -1,6 +1,288 @@
-[10:35:19] [ServerMain/INFO]: [bootstrap] Running Java 22 (Java HotSpot(TM) 64-Bit Server VM 22.0.1+8-16; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[10:35:19] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) for Minecraft 1.21.8
-[10:35:20] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[10:35:20] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
-[10:35:20] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+[10:36:08] [ServerMain/INFO]: [bootstrap] Running Java 22 (Java HotSpot(TM) 64-Bit Server VM 22.0.1+8-16; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[10:36:08] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) for Minecraft 1.21.8
+[10:36:08] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[10:36:08] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[10:36:08] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
  - GriefPrevention (16.18.4)
+[10:36:12] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:36:13] [ServerMain/INFO]: Loaded 1407 recipes
+[10:36:13] [ServerMain/INFO]: Loaded 1520 advancements
+[10:36:13] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[10:36:14] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 223.3ms
+[10:36:14] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[10:36:14] [Server thread/INFO]: Loading properties
+[10:36:14] [Server thread/INFO]: This server is running Paper version 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[10:36:14] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[10:36:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:36:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:36:14] [Server thread/INFO]: [MoonriseCommon] Paper is using 8 worker threads, 1 I/O threads
+[10:36:14] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[10:36:14] [Server thread/INFO]: Default game type: SURVIVAL
+[10:36:14] [Server thread/INFO]: Generating keypair
+[10:36:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:36:14] [Server thread/INFO]: Using default channel type
+[10:36:14] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[10:36:14] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[10:36:15] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18.4
+[10:36:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:36:15] [Server thread/INFO]: Preparing level "20250831-WORLD"
+[10:36:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:36:15] [Server thread/INFO]: Preparing spawn area: 0%
+[10:36:15] [Server thread/INFO]: Time elapsed: 369 ms
+[10:36:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:36:15] [Server thread/INFO]: Preparing spawn area: 0%
+[10:36:16] [Server thread/INFO]: Time elapsed: 289 ms
+[10:36:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:36:16] [Server thread/INFO]: Preparing spawn area: 0%
+[10:36:16] [Server thread/INFO]: Time elapsed: 36 ms
+[10:36:16] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.4
+[10:36:16] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[10:36:16] [Server thread/INFO]: [GriefPrevention] Failed to load a claim (ID:0) because its world isn't loaded (yet?).  If this is not expected, delete this claim.
+[10:36:16] [Server thread/INFO]: [GriefPrevention] Failed to load a claim (ID:3) because its world isn't loaded (yet?).  If this is not expected, delete this claim.
+[10:36:16] [Server thread/INFO]: [GriefPrevention] Failed to load a claim (ID:4) because its world isn't loaded (yet?).  If this is not expected, delete this claim.
+[10:36:16] [Server thread/INFO]: [GriefPrevention] 2 total claims loaded.
+[10:36:16] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[10:36:16] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[10:36:16] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[10:36:16] [Server thread/INFO]: [spark] Starting background profiler...
+[10:36:16] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[10:36:16] [Server thread/INFO]: Done preparing level "20250831-WORLD" (1.662s)
+[10:36:16] [Server thread/INFO]: Running delayed init tasks
+[10:36:16] [Server thread/INFO]: Done (9.053s)! For help, type "help"
+[10:37:40] [User Authenticator #0/INFO]: UUID of player Gamebuster801 is 3463677f-a213-4ebb-9bf4-3b8ca6a2ad35
+[10:37:40] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [GriefPrevention]
+[10:37:40] [Server thread/INFO]: Gamebuster801 joined the game
+[10:37:40] [Server thread/INFO]: Gamebuster801[/192.168.0.11:51155] logged in with entity id 12 at ([20250831-WORLD]-968.9664610119413, 63.0, 93.90385257768811)
+[10:38:44] [Server thread/INFO]: Gamebuster801 lost connection: Disconnected
+[10:38:44] [Server thread/INFO]: Gamebuster801 left the game
+[10:46:02] [User Authenticator #1/INFO]: UUID of player Becky1360 is c432d47f-450f-4350-863d-1275db06b9fc
+[10:46:03] [Server thread/INFO]: Becky1360 joined the game
+[10:46:03] [Server thread/INFO]: Becky1360[/192.168.0.10:60176] logged in with entity id 413 at ([20250831-WORLD]-1057.9403951300962, 63.0, -989.5037237909759)
+[10:48:25] [Server thread/INFO]: Becky1360 has made the advancement [Sweet Dreams]
+[11:25:19] [Server thread/INFO]: Becky1360 has made the advancement [What a Deal!]
+[12:23:22] [Server thread/INFO]: Becky1360 lost connection: Disconnected
+[12:23:22] [Server thread/INFO]: Becky1360 left the game
+[14:37:07] [User Authenticator #2/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[14:37:07] [Server thread/INFO]: Vanessa1360 joined the game
+[14:37:07] [Server thread/INFO]: Vanessa1360[/192.168.0.28:56671] logged in with entity id 12193 at ([20250831-WORLD]-975.6999999880791, 55.0, 90.69999998807907)
+[14:44:37] [Server thread/INFO]: Vanessa1360 has made the advancement [A Seedy Place]
+[14:45:27] [User Authenticator #3/INFO]: UUID of player Becky1360 is c432d47f-450f-4350-863d-1275db06b9fc
+[14:45:28] [Server thread/INFO]: Becky1360 joined the game
+[14:45:28] [Server thread/INFO]: Becky1360[/192.168.0.10:56872] logged in with entity id 13590 at ([20250831-WORLD]-1054.7138276976245, 63.0, -939.1039987655713)
+[14:46:31] [Server thread/INFO]: Vanessa1360 lost connection: Disconnected
+[14:46:31] [Server thread/INFO]: Vanessa1360 left the game
+[14:46:34] [User Authenticator #4/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[14:46:34] [Server thread/INFO]: Vanessa1360 joined the game
+[14:46:34] [Server thread/INFO]: Vanessa1360[/192.168.0.28:56799] logged in with entity id 14240 at ([20250831-WORLD]-1023.3000000119209, 64.0, 145.61231372035482)
+[14:57:35] [Server thread/INFO]: Vanessa1360 lost connection: Disconnected
+[14:57:35] [Server thread/INFO]: Vanessa1360 left the game
+[14:57:38] [Server thread/INFO]: Vanessa1360 (/192.168.0.28:56863) lost connection: Disconnected
+[14:57:43] [User Authenticator #5/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[14:57:43] [Server thread/INFO]: Vanessa1360 joined the game
+[14:57:43] [Server thread/INFO]: Vanessa1360[/192.168.0.28:56867] logged in with entity id 17227 at ([20250831-WORLD]-1020.0081038098479, 63.0, 146.23131372453014)
+[14:59:31] [Server thread/INFO]: Vanessa1360 lost connection: Disconnected
+[14:59:31] [Server thread/INFO]: Vanessa1360 left the game
+[14:59:35] [User Authenticator #6/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[14:59:35] [Server thread/INFO]: Vanessa1360 joined the game
+[14:59:35] [Server thread/INFO]: Vanessa1360[/192.168.0.28:56876] logged in with entity id 17853 at ([20250831-WORLD]-1017.3939497194797, 63.0, 145.49421535004257)
+[14:59:43] [Server thread/INFO]: Vanessa1360 lost connection: Disconnected
+[14:59:43] [Server thread/INFO]: Vanessa1360 left the game
+[14:59:48] [User Authenticator #6/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[14:59:48] [Server thread/INFO]: Disconnecting Vanessa1360 (/192.168.0.28:56881): You must wait 48 seconds before logging-in again.
+[14:59:48] [Server thread/INFO]: Vanessa1360 (/192.168.0.28:56881) lost connection: You must wait 48 seconds before logging-in again.
+[14:59:56] [User Authenticator #6/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[14:59:56] [Server thread/INFO]: Disconnecting Vanessa1360 (/192.168.0.28:56884): You must wait 40 seconds before logging-in again.
+[14:59:56] [Server thread/INFO]: Vanessa1360 (/192.168.0.28:56884) lost connection: You must wait 40 seconds before logging-in again.
+[15:00:10] [User Authenticator #6/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[15:00:10] [Server thread/INFO]: Disconnecting Vanessa1360 (/192.168.0.28:56886): You must wait 26 seconds before logging-in again.
+[15:00:10] [Server thread/INFO]: Vanessa1360 (/192.168.0.28:56886) lost connection: You must wait 26 seconds before logging-in again.
+[15:00:30] [User Authenticator #6/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[15:00:30] [Server thread/INFO]: Disconnecting Vanessa1360 (/192.168.0.28:56892): You must wait 6 seconds before logging-in again.
+[15:00:30] [Server thread/INFO]: Vanessa1360 (/192.168.0.28:56892) lost connection: You must wait 6 seconds before logging-in again.
+[15:00:39] [User Authenticator #6/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[15:00:40] [Server thread/INFO]: Vanessa1360 joined the game
+[15:00:40] [Server thread/INFO]: Vanessa1360[/192.168.0.28:56897] logged in with entity id 18102 at ([20250831-WORLD]-1017.3939497194797, 63.0, 145.49421535004257)
+[15:08:34] [Server thread/INFO]: Vanessa1360 lost connection: Disconnected
+[15:08:34] [Server thread/INFO]: Vanessa1360 left the game
+[15:08:37] [User Authenticator #7/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[15:08:37] [Server thread/INFO]: Vanessa1360 joined the game
+[15:08:37] [Server thread/INFO]: Vanessa1360[/192.168.0.28:56932] logged in with entity id 20425 at ([20250831-WORLD]-1026.8796375940728, 62.9375, 151.38267557745658)
+[15:16:19] [Server thread/INFO]: Vanessa1360 has made the advancement [Best Friends Forever]
+[15:19:41] [Server thread/INFO]: Vanessa1360 lost connection: Disconnected
+[15:19:41] [Server thread/INFO]: Vanessa1360 left the game
+[15:20:19] [User Authenticator #8/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[15:20:19] [Server thread/INFO]: Vanessa1360 joined the game
+[15:20:19] [Server thread/INFO]: Vanessa1360[/192.168.0.28:56973] logged in with entity id 23520 at ([20250831-WORLD]-1063.6687628493703, 64.0, 98.42909086776191)
+[15:27:03] [Server thread/INFO]: Vanessa1360 has made the advancement [The Parrots and the Bats]
+[15:30:41] [Server thread/INFO]: Vanessa1360 lost connection: Disconnected
+[15:30:41] [Server thread/INFO]: Vanessa1360 left the game
+[15:30:44] [User Authenticator #9/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[15:30:44] [Server thread/INFO]: Vanessa1360 joined the game
+[15:30:44] [Server thread/INFO]: Vanessa1360[/192.168.0.28:57006] logged in with entity id 26616 at ([20250831-WORLD]-1144.596300993364, 64.0, -0.7878766738768798)
+[15:33:57] [Server thread/INFO]: Vanessa1360 fell from a high place
+[15:41:27] [Server thread/INFO]: Vanessa1360 lost connection: Disconnected
+[15:41:27] [Server thread/INFO]: Vanessa1360 left the game
+[15:41:31] [User Authenticator #10/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[15:41:31] [Server thread/INFO]: Vanessa1360 joined the game
+[15:41:31] [Server thread/INFO]: Vanessa1360[/192.168.0.28:57058] logged in with entity id 29894 at ([20250831-WORLD]-754.773488451937, 61.699038996936125, 31.19965096534953)
+[15:45:52] [Server thread/INFO]: Vanessa1360 was shot by Skeleton
+[15:53:22] [Server thread/INFO]: Vanessa1360 lost connection: Disconnected
+[15:53:22] [Server thread/INFO]: Vanessa1360 left the game
+[15:53:25] [User Authenticator #11/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[15:53:25] [Server thread/INFO]: Vanessa1360 joined the game
+[15:53:25] [Server thread/INFO]: Vanessa1360[/192.168.0.28:57102] logged in with entity id 34413 at ([20250831-WORLD]-674.5999982829724, 63.0, 82.15786197575676)
+[15:55:35] [Server thread/INFO]: Vanessa1360 lost connection: Disconnected
+[15:55:35] [Server thread/INFO]: Vanessa1360 left the game
+[15:56:07] [User Authenticator #12/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[15:56:07] [Server thread/INFO]: Vanessa1360 joined the game
+[15:56:07] [Server thread/INFO]: Vanessa1360[/192.168.0.28:57123] logged in with entity id 35124 at ([20250831-WORLD]-698.0195143944006, 63.0, 76.60108216799344)
+[16:04:27] [Server thread/INFO]: Vanessa1360 lost connection: Disconnected
+[16:04:27] [Server thread/INFO]: Vanessa1360 left the game
+[16:04:30] [User Authenticator #13/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[16:04:30] [Server thread/INFO]: Vanessa1360 joined the game
+[16:04:30] [Server thread/INFO]: Vanessa1360[/192.168.0.28:57154] logged in with entity id 37429 at ([20250831-WORLD]-683.179437204165, 63.0, 50.05483171628377)
+[16:12:27] [Server thread/INFO]: Vanessa1360 lost connection: Disconnected
+[16:12:27] [Server thread/INFO]: Vanessa1360 left the game
+[16:12:32] [User Authenticator #14/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[16:12:32] [Server thread/INFO]: Vanessa1360 joined the game
+[16:12:32] [Server thread/INFO]: Vanessa1360[/192.168.0.28:57182] logged in with entity id 40162 at ([20250831-WORLD]-677.7338268234735, 62.0, 54.17017286251695)
+[16:18:49] [Server thread/INFO]: Vanessa1360 lost connection: Disconnected
+[16:18:49] [Server thread/INFO]: Vanessa1360 left the game
+[16:18:52] [User Authenticator #15/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[16:18:52] [Server thread/INFO]: Vanessa1360 joined the game
+[16:18:52] [Server thread/INFO]: Vanessa1360[/192.168.0.28:57201] logged in with entity id 41826 at ([20250831-WORLD]-670.8053739925492, 64.0, 51.937826431123916)
+[16:26:18] [Server thread/INFO]: Vanessa1360 was shot by Skeleton
+[16:33:34] [Server thread/INFO]: Vanessa1360 was shot by Skeleton
+[16:37:16] [Server thread/INFO]: Vanessa1360 lost connection: Disconnected
+[16:37:16] [Server thread/INFO]: Vanessa1360 left the game
+[16:37:43] [User Authenticator #16/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[16:37:43] [Server thread/INFO]: Vanessa1360 joined the game
+[16:37:43] [Server thread/INFO]: Vanessa1360[/192.168.0.28:57270] logged in with entity id 47771 at ([20250831-WORLD]-979.3692789490676, 64.0, 80.12176069827214)
+[16:37:56] [Server thread/INFO]: Vanessa1360 lost connection: Disconnected
+[16:37:56] [Server thread/INFO]: Vanessa1360 left the game
+[16:37:58] [User Authenticator #16/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[16:37:59] [Server thread/INFO]: Disconnecting Vanessa1360 (/192.168.0.28:57276): You must wait 45 seconds before logging-in again.
+[16:37:59] [Server thread/INFO]: Vanessa1360 (/192.168.0.28:57276) lost connection: You must wait 45 seconds before logging-in again.
+[16:38:05] [User Authenticator #16/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[16:38:05] [Server thread/INFO]: Disconnecting Vanessa1360 (/192.168.0.28:57280): You must wait 38 seconds before logging-in again.
+[16:38:05] [Server thread/INFO]: Vanessa1360 (/192.168.0.28:57280) lost connection: You must wait 38 seconds before logging-in again.
+[16:38:36] [User Authenticator #16/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[16:38:36] [Server thread/INFO]: Disconnecting Vanessa1360 (/192.168.0.28:57288): You must wait 7 seconds before logging-in again.
+[16:38:36] [Server thread/INFO]: Vanessa1360 (/192.168.0.28:57288) lost connection: You must wait 7 seconds before logging-in again.
+[17:49:31] [Server thread/INFO]: Becky1360 has made the advancement [Diamonds!]
+[17:54:43] [Server thread/INFO]: Becky1360 has made the advancement [Ice Bucket Challenge]
+[18:10:27] [User Authenticator #17/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[18:10:28] [Server thread/INFO]: Vanessa1360 joined the game
+[18:10:28] [Server thread/INFO]: Vanessa1360[/192.168.0.28:57581] logged in with entity id 58412 at ([20250831-WORLD]-987.7814516119295, 63.0, 66.38528016741924)
+[18:11:08] [User Authenticator #17/INFO]: UUID of player Gamebuster801 is 3463677f-a213-4ebb-9bf4-3b8ca6a2ad35
+[18:11:08] [Server thread/INFO]: Gamebuster801 joined the game
+[18:11:08] [Server thread/INFO]: Gamebuster801[/192.168.0.11:52619] logged in with entity id 58800 at ([20250831-WORLD]-973.8379219188116, 58.0, 87.49328938546707)
+[18:17:02] [Server thread/INFO]: Vanessa1360 lost connection: Disconnected
+[18:17:02] [Server thread/INFO]: Vanessa1360 left the game
+[18:17:05] [User Authenticator #18/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[18:17:05] [Server thread/INFO]: Vanessa1360 joined the game
+[18:17:05] [Server thread/INFO]: Vanessa1360[/192.168.0.28:57613] logged in with entity id 60902 at ([20250831-WORLD]-1031.2182505873855, 64.0, 147.34244436609862)
+[18:19:59] [Server thread/INFO]: Vanessa1360 was shot by Skeleton
+[18:23:57] [Server thread/INFO]: Vanessa1360 was slain by Zombie
+[18:25:59] [Server thread/INFO]: Vanessa1360 was slain by Gamebuster801
+[18:35:10] [Server thread/INFO]: Vanessa1360 lost connection: Disconnected
+[18:35:10] [Server thread/INFO]: Vanessa1360 left the game
+[18:35:12] [User Authenticator #19/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[18:35:13] [Server thread/INFO]: Vanessa1360 joined the game
+[18:35:13] [Server thread/INFO]: Vanessa1360[/192.168.0.28:57664] logged in with entity id 66127 at ([20250831-WORLD]-920.7586859579799, 63.0, 48.44766633773917)
+[18:35:21] [Server thread/INFO]: Vanessa1360 lost connection: Disconnected
+[18:35:21] [Server thread/INFO]: Vanessa1360 left the game
+[18:35:26] [User Authenticator #19/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[18:35:26] [Server thread/INFO]: Disconnecting Vanessa1360 (/192.168.0.28:57670): You must wait 48 seconds before logging-in again.
+[18:35:26] [Server thread/INFO]: Vanessa1360 (/192.168.0.28:57670) lost connection: You must wait 48 seconds before logging-in again.
+[18:35:28] [Server thread/INFO]: Gamebuster801 lost connection: Disconnected
+[18:35:28] [Server thread/INFO]: Gamebuster801 left the game
+[18:35:30] [User Authenticator #19/INFO]: UUID of player Gamebuster801 is 3463677f-a213-4ebb-9bf4-3b8ca6a2ad35
+[18:35:30] [Server thread/INFO]: Gamebuster801 joined the game
+[18:35:30] [Server thread/INFO]: Gamebuster801[/192.168.0.11:52744] logged in with entity id 66193 at ([20250831-WORLD]-974.2246552190412, 58.0, 86.14577310023009)
+[18:35:44] [User Authenticator #19/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[18:35:44] [Server thread/INFO]: Disconnecting Vanessa1360 (/192.168.0.28:57673): You must wait 29 seconds before logging-in again.
+[18:35:44] [Server thread/INFO]: Vanessa1360 (/192.168.0.28:57673) lost connection: You must wait 29 seconds before logging-in again.
+[18:36:14] [User Authenticator #19/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[18:36:14] [Server thread/INFO]: Vanessa1360 joined the game
+[18:36:14] [Server thread/INFO]: Vanessa1360[/192.168.0.28:57680] logged in with entity id 66540 at ([20250831-WORLD]-920.7586859579799, 63.0, 48.44766633773917)
+[18:46:22] [Server thread/INFO]: Vanessa1360 lost connection: Disconnected
+[18:46:22] [Server thread/INFO]: Vanessa1360 left the game
+[18:46:24] [Server thread/INFO]: Gamebuster801 lost connection: Disconnected
+[18:46:24] [Server thread/INFO]: Gamebuster801 left the game
+[18:46:25] [User Authenticator #20/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[18:46:25] [Server thread/INFO]: Vanessa1360 joined the game
+[18:46:25] [Server thread/INFO]: Vanessa1360[/192.168.0.28:57729] logged in with entity id 69592 at ([20250831-WORLD]-904.6675145074544, 63.0, 43.14107963306085)
+[18:46:26] [User Authenticator #20/INFO]: UUID of player Gamebuster801 is 3463677f-a213-4ebb-9bf4-3b8ca6a2ad35
+[18:46:26] [Server thread/INFO]: Gamebuster801 joined the game
+[18:46:26] [Server thread/INFO]: Gamebuster801[/192.168.0.11:52806] logged in with entity id 69667 at ([20250831-WORLD]-974.5425826401394, 67.0, 89.69999998807907)
+[18:56:37] [Server thread/INFO]: Gamebuster801 lost connection: Disconnected
+[18:56:37] [Server thread/INFO]: Gamebuster801 left the game
+[18:56:41] [Server thread/INFO]: Vanessa1360 lost connection: Disconnected
+[18:56:41] [Server thread/INFO]: Vanessa1360 left the game
+[18:56:43] [User Authenticator #21/INFO]: UUID of player Gamebuster801 is 3463677f-a213-4ebb-9bf4-3b8ca6a2ad35
+[18:56:43] [Server thread/INFO]: Gamebuster801 joined the game
+[18:56:43] [Server thread/INFO]: Gamebuster801[/192.168.0.11:52862] logged in with entity id 72178 at ([20250831-WORLD]-905.5024667494949, 63.0, 53.57080395023367)
+[18:56:44] [User Authenticator #21/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[18:56:44] [Server thread/INFO]: Vanessa1360 joined the game
+[18:56:44] [Server thread/INFO]: Vanessa1360[/192.168.0.28:57766] logged in with entity id 72261 at ([20250831-WORLD]-907.1571159290748, 63.0, 54.76650829568833)
+[19:03:41] [Server thread/INFO]: Vanessa1360 was slain by Gamebuster801
+[19:04:06] [Server thread/INFO]: Gamebuster801 has made the advancement [Voluntary Exile]
+[19:07:49] [Server thread/INFO]: Vanessa1360 lost connection: Disconnected
+[19:07:49] [Server thread/INFO]: Vanessa1360 left the game
+[19:07:49] [Server thread/INFO]: Gamebuster801 lost connection: Disconnected
+[19:07:49] [Server thread/INFO]: Gamebuster801 left the game
+[19:07:52] [User Authenticator #22/INFO]: UUID of player Gamebuster801 is 3463677f-a213-4ebb-9bf4-3b8ca6a2ad35
+[19:07:52] [Server thread/INFO]: Gamebuster801 joined the game
+[19:07:52] [Server thread/INFO]: Gamebuster801[/192.168.0.11:52914] logged in with entity id 75194 at ([20250831-WORLD]-972.9212594668504, 67.0, 90.6374016116202)
+[19:07:52] [User Authenticator #22/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[19:07:52] [Server thread/INFO]: Vanessa1360 joined the game
+[19:07:52] [Server thread/INFO]: Vanessa1360[/192.168.0.28:57807] logged in with entity id 75230 at ([20250831-WORLD]-907.0746704695513, 63.0, 54.35977622956624)
+[19:08:25] [Server thread/INFO]: Gamebuster801 lost connection: Disconnected
+[19:08:25] [Server thread/INFO]: Gamebuster801 left the game
+[19:09:03] [Server thread/INFO]: Becky1360 lost connection: Disconnected
+[19:09:03] [Server thread/INFO]: Becky1360 left the game
+[19:09:13] [Server thread/INFO]: Vanessa1360 lost connection: Kicked by an operator
+[19:09:13] [Server thread/INFO]: Vanessa1360 left the game
+[19:09:13] [Server thread/INFO]: Kicked Vanessa1360: Kicked by an operator
+[19:30:50] [User Authenticator #23/INFO]: UUID of player Becky1360 is c432d47f-450f-4350-863d-1275db06b9fc
+[19:30:50] [Server thread/INFO]: Becky1360 joined the game
+[19:30:50] [Server thread/INFO]: Becky1360[/192.168.0.10:60169] logged in with entity id 75575 at ([20250831-WORLD]-1050.202432338106, 63.0, -966.4996495627331)
+[20:11:40] [Server thread/INFO]: Villager Villager['Villager'/80114, uuid='93c87524-d222-4cbf-954e-63616ba80fbe', l='ServerLevel[20250831-WORLD]', x=-1049.78, y=62.50, z=-952.71, cpos=[-66, -60], tl=1439, v=true] died, message: 'Villager was impaled by Drowned'
+[20:27:19] [Server thread/INFO]: Becky1360 lost connection: Disconnected
+[20:27:19] [Server thread/INFO]: Becky1360 left the game
+[20:52:22] [Server thread/INFO]: Stopping the server
+[20:52:22] [Server thread/INFO]: Stopping server
+[20:52:22] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.18.4
+[20:52:22] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[20:52:22] [Server thread/INFO]: Saving players
+[20:52:22] [Server thread/INFO]: Saving worlds
+[20:52:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[20250831-WORLD]'/minecraft:overworld
+[20:52:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world '20250831-WORLD'
+[20:52:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world '20250831-WORLD'
+[20:52:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world '20250831-WORLD'
+[20:52:22] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 107 entity chunks, 0 poi chunks in world '20250831-WORLD' in 0.08s
+[20:52:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world '20250831-WORLD'
+[20:52:22] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world '20250831-WORLD'
+[20:52:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[20250831-WORLD_nether]'/minecraft:the_nether
+[20:52:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world '20250831-WORLD_nether'
+[20:52:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world '20250831-WORLD_nether'
+[20:52:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world '20250831-WORLD_nether'
+[20:52:22] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world '20250831-WORLD_nether' in 0.01s
+[20:52:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world '20250831-WORLD_nether'
+[20:52:22] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world '20250831-WORLD_nether'
+[20:52:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[20250831-WORLD_the_end]'/minecraft:the_end
+[20:52:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world '20250831-WORLD_the_end'
+[20:52:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world '20250831-WORLD_the_end'
+[20:52:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world '20250831-WORLD_the_end'
+[20:52:22] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world '20250831-WORLD_the_end' in 0.02s
+[20:52:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world '20250831-WORLD_the_end'
+[20:52:22] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world '20250831-WORLD_the_end'
+[20:52:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (20250831-WORLD): All chunks are saved
+[20:52:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:52:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:52:22] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:52:22] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[20:52:22] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[20:52:22] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[20:52:22] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
