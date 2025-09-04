@@ -1,178 +1,107 @@
-[18:26:47] [ServerMain/INFO]: [bootstrap] Running Java 22 (Java HotSpot(TM) 64-Bit Server VM 22.0.1+8-16; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[18:26:47] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) for Minecraft 1.21.8
-[18:26:47] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[18:26:48] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
-[18:26:48] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+[19:38:33] [ServerMain/INFO]: [bootstrap] Running Java 22 (Java HotSpot(TM) 64-Bit Server VM 22.0.1+8-16; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[19:38:33] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) for Minecraft 1.21.8
+[19:38:33] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[19:38:34] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[19:38:34] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
  - GriefPrevention (16.18.4)
-[18:26:51] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:26:53] [ServerMain/INFO]: Loaded 1407 recipes
-[18:26:53] [ServerMain/INFO]: Loaded 1520 advancements
-[18:26:53] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[18:26:53] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 251.8ms
-[18:26:53] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[18:26:53] [Server thread/INFO]: Loading properties
-[18:26:53] [Server thread/INFO]: This server is running Paper version 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[18:26:53] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[18:26:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:26:54] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:26:54] [Server thread/INFO]: [MoonriseCommon] Paper is using 8 worker threads, 1 I/O threads
-[18:26:54] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[18:26:54] [Server thread/INFO]: Default game type: SURVIVAL
-[18:26:54] [Server thread/INFO]: Generating keypair
-[18:26:54] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:26:54] [Server thread/INFO]: Using default channel type
-[18:26:54] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[18:26:54] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[18:26:55] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18.4
-[18:26:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:26:55] [Server thread/INFO]: Preparing level "20250831-WORLD"
-[18:26:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:26:55] [Server thread/INFO]: Preparing spawn area: 0%
-[18:26:56] [Server thread/INFO]: Preparing spawn area: 0%
-[18:26:56] [Server thread/INFO]: Time elapsed: 676 ms
-[18:26:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[18:26:56] [Server thread/INFO]: Preparing spawn area: 0%
-[18:26:56] [Server thread/INFO]: Time elapsed: 125 ms
-[18:26:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[18:26:56] [Server thread/INFO]: Preparing spawn area: 0%
-[18:26:56] [Server thread/INFO]: Time elapsed: 50 ms
-[18:26:56] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.4
-[18:26:56] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
-[18:26:56] [Server thread/INFO]: [GriefPrevention] Failed to load a claim (ID:0) because its world isn't loaded (yet?).  If this is not expected, delete this claim.
-[18:26:56] [Server thread/INFO]: [GriefPrevention] Failed to load a claim (ID:3) because its world isn't loaded (yet?).  If this is not expected, delete this claim.
-[18:26:56] [Server thread/INFO]: [GriefPrevention] Failed to load a claim (ID:4) because its world isn't loaded (yet?).  If this is not expected, delete this claim.
-[18:26:56] [Server thread/INFO]: [GriefPrevention] 4 total claims loaded.
-[18:26:56] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
-[18:26:56] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
-[18:26:56] [Server thread/INFO]: [GriefPrevention] Boot finished.
-[18:26:57] [Server thread/INFO]: [spark] Starting background profiler...
-[18:26:57] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[18:26:57] [Server thread/INFO]: Done preparing level "20250831-WORLD" (2.285s)
-[18:26:57] [Server thread/INFO]: Running delayed init tasks
-[18:26:57] [Server thread/INFO]: Done (11.192s)! For help, type "help"
-[18:27:44] [User Authenticator #0/INFO]: UUID of player Gamebuster801 is 3463677f-a213-4ebb-9bf4-3b8ca6a2ad35
-[18:27:44] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [GriefPrevention]
-[18:27:44] [Server thread/INFO]: Gamebuster801 joined the game
-[18:27:44] [Server thread/INFO]: Gamebuster801[/192.168.0.11:50555] logged in with entity id 70 at ([20250831-WORLD]-971.565112349959, 58.0, 87.33112886346423)
-[18:29:17] [User Authenticator #1/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
-[18:29:17] [Server thread/INFO]: Vanessa1360 joined the game
-[18:29:17] [Server thread/INFO]: Vanessa1360[/192.168.0.28:59427] logged in with entity id 493 at ([20250831-WORLD]-906.7231441661918, 63.0, 55.65353839519379)
-[18:35:13] [User Authenticator #2/INFO]: UUID of player Becky1360 is c432d47f-450f-4350-863d-1275db06b9fc
-[18:35:14] [Server thread/INFO]: Becky1360 joined the game
-[18:35:14] [Server thread/INFO]: Becky1360[/192.168.0.10:53405] logged in with entity id 1321 at ([20250831-WORLD]-1054.547384925933, 63.0, -939.382409523374)
-[18:35:38] [Server thread/INFO]: Gamebuster801 has made the advancement [Sweet Dreams]
-[18:47:15] [Server thread/INFO]: Vanessa1360 lost connection: Disconnected
-[18:47:15] [Server thread/INFO]: Vanessa1360 left the game
-[18:53:37] [Server thread/INFO]: Becky1360 lost connection: Disconnected
-[18:53:37] [Server thread/INFO]: Becky1360 left the game
-[19:07:23] [User Authenticator #3/INFO]: UUID of player Becky1360 is c432d47f-450f-4350-863d-1275db06b9fc
-[19:07:23] [Server thread/INFO]: Becky1360 joined the game
-[19:07:23] [Server thread/INFO]: Becky1360[/192.168.0.10:54076] logged in with entity id 8414 at ([20250831-WORLD]-1053.762499988079, 66.0, -940.2182259192487)
-[19:31:36] [Server thread/INFO]: Gamebuster801 lost connection: Disconnected
-[19:31:36] [Server thread/INFO]: Gamebuster801 left the game
-[19:31:41] [User Authenticator #4/INFO]: UUID of player Gamebuster801 is 3463677f-a213-4ebb-9bf4-3b8ca6a2ad35
-[19:31:41] [Server thread/INFO]: Gamebuster801 joined the game
-[19:31:41] [Server thread/INFO]: Gamebuster801[/192.168.0.11:50854] logged in with entity id 15274 at ([20250831-WORLD]-974.6999999880791, -19.0, 6.159990721285473)
-[19:43:34] [Server thread/INFO]: Gamebuster801 lost connection: Disconnected
-[19:43:34] [Server thread/INFO]: Gamebuster801 left the game
-[19:47:25] [User Authenticator #5/INFO]: UUID of player Gamebuster801 is 3463677f-a213-4ebb-9bf4-3b8ca6a2ad35
-[19:47:25] [Server thread/INFO]: Gamebuster801 joined the game
-[19:47:25] [Server thread/INFO]: Gamebuster801[/192.168.0.11:50958] logged in with entity id 19203 at ([20250831-WORLD]-998.697101113164, 14.0, 38.55199173769905)
-[19:48:31] [Server thread/INFO]: Gamebuster801 issued server command: /claimslist
-[20:14:26] [Server thread/INFO]: Gamebuster801 lost connection: Disconnected
-[20:14:26] [Server thread/INFO]: Gamebuster801 left the game
-[20:14:30] [User Authenticator #6/INFO]: UUID of player Gamebuster801 is 3463677f-a213-4ebb-9bf4-3b8ca6a2ad35
-[20:14:30] [Server thread/INFO]: Gamebuster801 joined the game
-[20:14:30] [Server thread/INFO]: Gamebuster801[/192.168.0.11:52166] logged in with entity id 28182 at ([20250831-WORLD]-994.0669398734497, 8.0, -56.76498502143483)
-[20:32:56] [Server thread/INFO]: Becky1360 lost connection: Disconnected
-[20:32:56] [Server thread/INFO]: Becky1360 left the game
-[20:32:59] [User Authenticator #7/INFO]: UUID of player Becky1360 is c432d47f-450f-4350-863d-1275db06b9fc
-[20:32:59] [Server thread/INFO]: Becky1360 joined the game
-[20:32:59] [Server thread/INFO]: Becky1360[/192.168.0.10:59919] logged in with entity id 33731 at ([20250831-WORLD]-849.286626789177, 68.0, -811.5202534169968)
-[20:35:39] [Server thread/INFO]: Becky1360 has made the advancement [Who is Cutting Onions?]
-[20:39:03] [Server thread/INFO]: Gamebuster801 has made the advancement [Ice Bucket Challenge]
-[20:43:33] [Server thread/INFO]: Becky1360 lost connection: Disconnected
-[20:43:33] [Server thread/INFO]: Becky1360 left the game
-[20:45:04] [User Authenticator #8/INFO]: UUID of player Becky1360 is c432d47f-450f-4350-863d-1275db06b9fc
-[20:45:04] [Server thread/INFO]: Becky1360 joined the game
-[20:45:04] [Server thread/INFO]: Becky1360[/192.168.0.10:52362] logged in with entity id 37862 at ([20250831-WORLD]-968.3716746144869, 62.110764312744145, 79.53762241567857)
-[20:48:56] [Server thread/INFO]: Gamebuster801 has made the advancement [Suit Up]
-[20:50:46] [Server thread/INFO]: Gamebuster801 has made the advancement [We Need to Go Deeper]
-[20:51:33] [Async Chat Thread - #9/INFO]: <Gamebuster801> -127 / 37 / -111 nether portal becky huis
-[20:52:28] [Async Chat Thread - #9/INFO]: <Gamebuster801> -1022 62 -914 becky huis overworld pier
-[20:54:32] [Server thread/INFO]: Gamebuster801 lost connection: Disconnected
-[20:54:32] [Server thread/INFO]: Gamebuster801 left the game
-[20:54:43] [User Authenticator #9/INFO]: UUID of player Gamebuster801 is 3463677f-a213-4ebb-9bf4-3b8ca6a2ad35
-[20:54:43] [Server thread/INFO]: Gamebuster801 joined the game
-[20:54:43] [Server thread/INFO]: Gamebuster801[/192.168.0.11:52405] logged in with entity id 41553 at ([20250831-WORLD]-1023.291208960535, 62.11076431274413, -923.1339372538395)
-[21:06:50] [Server thread/INFO]: Gamebuster801 lost connection: Disconnected
-[21:06:50] [Server thread/INFO]: Gamebuster801 left the game
-[21:06:55] [User Authenticator #10/INFO]: UUID of player Gamebuster801 is 3463677f-a213-4ebb-9bf4-3b8ca6a2ad35
-[21:06:55] [Server thread/INFO]: Gamebuster801 joined the game
-[21:06:55] [Server thread/INFO]: Gamebuster801[/192.168.0.11:52481] logged in with entity id 47774 at ([20250831-WORLD]-975.3000000119209, 53.0, 88.02239923242003)
-[21:11:33] [Server thread/INFO]: Becky1360 has made the advancement [Enchanter]
-[21:13:39] [Async Chat Thread - #13/INFO]: <Gamebuster801> oh geen chat historie :(
-[21:13:51] [Async Chat Thread - #13/INFO]: <Gamebuster801> toby portal nether -119 65 19
-[21:14:17] [Async Chat Thread - #13/INFO]: <Becky1360> mijne -127 37 -111
-[21:14:35] [Async Chat Thread - #13/INFO]: <Gamebuster801> dus z 19 -> -111
-[21:21:52] [Server thread/INFO]: Gamebuster801 was slain by Magma Cube
-[21:25:25] [Server thread/INFO]: Gamebuster801 was slain by Magma Cube
-[21:41:15] [Server thread/INFO]: Gamebuster801 lost connection: Disconnected
-[21:41:15] [Server thread/INFO]: Gamebuster801 left the game
-[21:41:19] [User Authenticator #11/INFO]: UUID of player Gamebuster801 is 3463677f-a213-4ebb-9bf4-3b8ca6a2ad35
-[21:41:19] [Server thread/INFO]: Gamebuster801 joined the game
-[21:41:19] [Server thread/INFO]: Gamebuster801[/192.168.0.11:52669] logged in with entity id 57756 at ([20250831-WORLD]-979.943692647049, 10.0, 96.24900354944454)
-[22:25:29] [Server thread/INFO]: Becky1360 has made the advancement [Fishy Business]
-[22:30:57] [Server thread/INFO]: Gamebuster801 issued server command: /help
-[22:31:03] [Server thread/INFO]: Gamebuster801 issued server command: /help GriefPrevention
-[22:31:07] [Server thread/INFO]: Gamebuster801 issued server command: /resizeclaim
-[22:32:13] [Server thread/INFO]: Becky1360 lost connection: Disconnected
-[22:32:13] [Server thread/INFO]: Becky1360 left the game
-[22:32:16] [User Authenticator #12/INFO]: UUID of player Becky1360 is c432d47f-450f-4350-863d-1275db06b9fc
-[22:32:16] [Server thread/INFO]: Becky1360 joined the game
-[22:32:16] [Server thread/INFO]: Becky1360[/192.168.0.10:63548] logged in with entity id 75004 at ([20250831-WORLD]-559.3000000119209, 67.0, -742.0591342779791)
-[22:40:52] [Server thread/INFO]: Gamebuster801 lost connection: Disconnected
-[22:40:52] [Server thread/INFO]: Gamebuster801 left the game
-[22:46:25] [Server thread/INFO]: Becky1360 has made the advancement [Total Beelocation]
-[22:47:26] [Server thread/INFO]: Becky1360 lost connection: Disconnected
-[22:47:26] [Server thread/INFO]: Becky1360 left the game
-[22:47:32] [User Authenticator #13/INFO]: UUID of player Becky1360 is c432d47f-450f-4350-863d-1275db06b9fc
-[22:47:32] [Server thread/INFO]: Becky1360 joined the game
-[22:47:32] [Server thread/INFO]: Becky1360[/192.168.0.10:61795] logged in with entity id 78500 at ([20250831-WORLD]-533.5688532705701, 67.0, -658.6999999880791)
-[23:02:40] [Server thread/INFO]: Becky1360 has made the advancement [Best Friends Forever]
-[23:07:40] [Server thread/INFO]: Becky1360 lost connection: Disconnected
-[23:07:40] [Server thread/INFO]: Becky1360 left the game
-[23:08:31] [Server thread/INFO]: Stopping server
-[23:08:31] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.18.4
-[23:08:31] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
-[23:08:31] [Server thread/INFO]: Saving players
-[23:08:31] [Server thread/INFO]: Saving worlds
-[23:08:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[20250831-WORLD]'/minecraft:overworld
-[23:08:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world '20250831-WORLD'
-[23:08:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world '20250831-WORLD'
-[23:08:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world '20250831-WORLD'
-[23:08:31] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 60 entity chunks, 0 poi chunks in world '20250831-WORLD' in 0.07s
-[23:08:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world '20250831-WORLD'
-[23:08:31] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world '20250831-WORLD'
-[23:08:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[20250831-WORLD_nether]'/minecraft:the_nether
-[23:08:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world '20250831-WORLD_nether'
-[23:08:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world '20250831-WORLD_nether'
-[23:08:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world '20250831-WORLD_nether'
-[23:08:32] [Server thread/INFO]: [ChunkHolderManager] Saved 91 block chunks, 87 entity chunks, 0 poi chunks in world '20250831-WORLD_nether' in 0.04s
-[23:08:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world '20250831-WORLD_nether'
-[23:08:32] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world '20250831-WORLD_nether'
-[23:08:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[20250831-WORLD_the_end]'/minecraft:the_end
-[23:08:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world '20250831-WORLD_the_end'
-[23:08:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world '20250831-WORLD_the_end'
-[23:08:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world '20250831-WORLD_the_end'
-[23:08:32] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world '20250831-WORLD_the_end' in 0.02s
-[23:08:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world '20250831-WORLD_the_end'
-[23:08:32] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world '20250831-WORLD_the_end'
-[23:08:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (20250831-WORLD): All chunks are saved
-[23:08:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:08:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:08:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:08:32] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[23:08:32] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[23:08:32] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[23:08:32] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[19:38:37] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:38:39] [ServerMain/INFO]: Loaded 1407 recipes
+[19:38:39] [ServerMain/INFO]: Loaded 1520 advancements
+[19:38:39] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[19:38:39] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 235.2ms
+[19:38:39] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[19:38:39] [Server thread/INFO]: Loading properties
+[19:38:39] [Server thread/INFO]: This server is running Paper version 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[19:38:39] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[19:38:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:38:39] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:38:40] [Server thread/INFO]: [MoonriseCommon] Paper is using 8 worker threads, 1 I/O threads
+[19:38:40] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[19:38:40] [Server thread/INFO]: Default game type: SURVIVAL
+[19:38:40] [Server thread/INFO]: Generating keypair
+[19:38:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:38:40] [Server thread/INFO]: Using default channel type
+[19:38:40] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[19:38:40] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[19:38:40] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18.4
+[19:38:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:38:40] [Server thread/INFO]: Preparing level "20250831-WORLD"
+[19:38:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:38:41] [Server thread/INFO]: Preparing spawn area: 0%
+[19:38:41] [Server thread/INFO]: Preparing spawn area: 2%
+[19:38:41] [Server thread/INFO]: Time elapsed: 675 ms
+[19:38:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:38:41] [Server thread/INFO]: Preparing spawn area: 0%
+[19:38:41] [Server thread/INFO]: Time elapsed: 52 ms
+[19:38:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:38:41] [Server thread/INFO]: Preparing spawn area: 0%
+[19:38:41] [Server thread/INFO]: Time elapsed: 75 ms
+[19:38:41] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.4
+[19:38:41] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[19:38:41] [Server thread/INFO]: [GriefPrevention] Failed to load a claim (ID:0) because its world isn't loaded (yet?).  If this is not expected, delete this claim.
+[19:38:41] [Server thread/INFO]: [GriefPrevention] Failed to load a claim (ID:3) because its world isn't loaded (yet?).  If this is not expected, delete this claim.
+[19:38:41] [Server thread/INFO]: [GriefPrevention] Failed to load a claim (ID:4) because its world isn't loaded (yet?).  If this is not expected, delete this claim.
+[19:38:41] [Server thread/INFO]: [GriefPrevention] 6 total claims loaded.
+[19:38:42] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[19:38:42] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[19:38:42] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[19:38:42] [Server thread/INFO]: [spark] Starting background profiler...
+[19:38:42] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[19:38:42] [Server thread/INFO]: Done preparing level "20250831-WORLD" (1.879s)
+[19:38:42] [Server thread/INFO]: Running delayed init tasks
+[19:38:42] [Server thread/INFO]: Done (9.813s)! For help, type "help"
+[19:44:23] [User Authenticator #0/INFO]: UUID of player Gamebuster801 is 3463677f-a213-4ebb-9bf4-3b8ca6a2ad35
+[19:44:23] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [GriefPrevention]
+[19:44:23] [Server thread/INFO]: Gamebuster801 joined the game
+[19:44:24] [Server thread/INFO]: Gamebuster801[/192.168.0.11:50973] logged in with entity id 61 at ([20250831-WORLD]-969.9306317412755, 62.9375, 89.46492020229512)
+[19:46:30] [User Authenticator #1/INFO]: UUID of player Becky1360 is c432d47f-450f-4350-863d-1275db06b9fc
+[19:46:31] [Server thread/INFO]: Becky1360 joined the game
+[19:46:31] [Server thread/INFO]: Becky1360[/192.168.0.10:50228] logged in with entity id 604 at ([20250831-WORLD]-1059.6905949168095, 63.0, -933.992699617573)
+[19:46:46] [Async Chat Thread - #2/INFO]: <Becky1360> ik lig
+[20:09:48] [Async Chat Thread - #3/INFO]: <Becky1360> slapen?
+[20:09:51] [Server thread/INFO]: Gamebuster801 lost connection: Disconnected
+[20:09:51] [Server thread/INFO]: Gamebuster801 left the game
+[20:10:00] [User Authenticator #2/INFO]: UUID of player Gamebuster801 is 3463677f-a213-4ebb-9bf4-3b8ca6a2ad35
+[20:10:00] [Server thread/INFO]: Gamebuster801 joined the game
+[20:10:00] [Server thread/INFO]: Gamebuster801[/192.168.0.11:51156] logged in with entity id 7364 at ([20250831-WORLD]-972.9988702959306, 67.0, 85.22225374069451)
+[20:27:31] [Server thread/INFO]: Becky1360 was killed by Witch using magic
+[20:27:41] [Async Chat Thread - #5/INFO]: <Becky1360> ik lig
+[20:39:20] [Server thread/INFO]: Gamebuster801 lost connection: Disconnected
+[20:39:20] [Server thread/INFO]: Gamebuster801 left the game
+[21:29:07] [Server thread/INFO]: Becky1360 lost connection: Disconnected
+[21:29:07] [Server thread/INFO]: Becky1360 left the game
+[22:58:10] [Server thread/INFO]: Stopping the server
+[22:58:10] [Server thread/INFO]: Stopping server
+[22:58:10] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.18.4
+[22:58:10] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[22:58:10] [Server thread/INFO]: Saving players
+[22:58:10] [Server thread/INFO]: Saving worlds
+[22:58:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[20250831-WORLD]'/minecraft:overworld
+[22:58:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world '20250831-WORLD'
+[22:58:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world '20250831-WORLD'
+[22:58:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world '20250831-WORLD'
+[22:58:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 71 entity chunks, 0 poi chunks in world '20250831-WORLD' in 0.04s
+[22:58:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world '20250831-WORLD'
+[22:58:10] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world '20250831-WORLD'
+[22:58:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[20250831-WORLD_nether]'/minecraft:the_nether
+[22:58:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world '20250831-WORLD_nether'
+[22:58:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world '20250831-WORLD_nether'
+[22:58:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world '20250831-WORLD_nether'
+[22:58:11] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 81 entity chunks, 0 poi chunks in world '20250831-WORLD_nether' in 0.02s
+[22:58:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world '20250831-WORLD_nether'
+[22:58:11] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world '20250831-WORLD_nether'
+[22:58:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[20250831-WORLD_the_end]'/minecraft:the_end
+[22:58:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world '20250831-WORLD_the_end'
+[22:58:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world '20250831-WORLD_the_end'
+[22:58:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world '20250831-WORLD_the_end'
+[22:58:11] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world '20250831-WORLD_the_end' in 0.02s
+[22:58:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world '20250831-WORLD_the_end'
+[22:58:11] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world '20250831-WORLD_the_end'
+[22:58:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (20250831-WORLD): All chunks are saved
+[22:58:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:58:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:58:11] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:58:11] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[22:58:11] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[22:58:11] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[22:58:11] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
