@@ -1,52 +1,65 @@
-[13:44:04] [ServerMain/INFO]: [bootstrap] Running Java 22 (Java HotSpot(TM) 64-Bit Server VM 22.0.1+8-16; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[13:44:04] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) for Minecraft 1.21.8
-[13:44:04] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[13:44:04] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
-[13:44:04] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+[18:20:59] [ServerMain/INFO]: [bootstrap] Running Java 22 (Java HotSpot(TM) 64-Bit Server VM 22.0.1+8-16; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[18:20:59] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) for Minecraft 1.21.8
+[18:21:00] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:21:01] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[18:21:01] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
  - GriefPrevention (16.18.4)
-[13:44:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:44:09] [ServerMain/INFO]: Loaded 1407 recipes
-[13:44:09] [ServerMain/INFO]: Loaded 1520 advancements
-[13:44:09] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[13:44:10] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 217.9ms
-[13:44:10] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[13:44:10] [Server thread/INFO]: Loading properties
-[13:44:10] [Server thread/INFO]: This server is running Paper version 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[13:44:10] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[13:44:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:44:10] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:44:10] [Server thread/INFO]: [MoonriseCommon] Paper is using 8 worker threads, 1 I/O threads
-[13:44:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[13:44:10] [Server thread/INFO]: Default game type: SURVIVAL
-[13:44:10] [Server thread/INFO]: Generating keypair
-[13:44:10] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:44:10] [Server thread/INFO]: Using default channel type
-[13:44:10] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[13:44:10] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[13:44:11] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18.4
-[13:44:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:44:11] [Server thread/INFO]: Preparing level "20250831-WORLD"
-[13:44:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:44:11] [Server thread/INFO]: Preparing spawn area: 0%
-[13:44:12] [Server thread/INFO]: Preparing spawn area: 0%
-[13:44:12] [Server thread/INFO]: Time elapsed: 617 ms
-[13:44:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[13:44:12] [Server thread/INFO]: Preparing spawn area: 0%
-[13:44:12] [Server thread/INFO]: Time elapsed: 71 ms
-[13:44:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[13:44:12] [Server thread/INFO]: Preparing spawn area: 0%
-[13:44:12] [Server thread/INFO]: Time elapsed: 39 ms
-[13:44:12] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.4
-[13:44:12] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
-[13:44:12] [Server thread/INFO]: [GriefPrevention] Failed to load a claim (ID:0) because its world isn't loaded (yet?).  If this is not expected, delete this claim.
-[13:44:12] [Server thread/INFO]: [GriefPrevention] Failed to load a claim (ID:3) because its world isn't loaded (yet?).  If this is not expected, delete this claim.
-[13:44:12] [Server thread/INFO]: [GriefPrevention] Failed to load a claim (ID:4) because its world isn't loaded (yet?).  If this is not expected, delete this claim.
-[13:44:12] [Server thread/INFO]: [GriefPrevention] 6 total claims loaded.
-[13:44:12] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
-[13:44:12] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
-[13:44:12] [Server thread/INFO]: [GriefPrevention] Boot finished.
-[13:44:12] [Server thread/INFO]: [spark] Starting background profiler...
-[13:44:12] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[13:44:12] [Server thread/INFO]: Done preparing level "20250831-WORLD" (1.772s)
-[13:44:12] [Server thread/INFO]: Running delayed init tasks
-[13:44:12] [Server thread/INFO]: Done (9.391s)! For help, type "help"
+[18:21:05] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:21:07] [ServerMain/INFO]: Loaded 1407 recipes
+[18:21:07] [ServerMain/INFO]: Loaded 1520 advancements
+[18:21:07] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[18:21:07] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 302.3ms
+[18:21:07] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[18:21:07] [Server thread/INFO]: Loading properties
+[18:21:07] [Server thread/INFO]: This server is running Paper version 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[18:21:07] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:21:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:21:07] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:21:08] [Server thread/INFO]: [MoonriseCommon] Paper is using 8 worker threads, 1 I/O threads
+[18:21:08] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[18:21:08] [Server thread/INFO]: Default game type: SURVIVAL
+[18:21:08] [Server thread/INFO]: Generating keypair
+[18:21:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:21:08] [Server thread/INFO]: Using default channel type
+[18:21:08] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[18:21:08] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[18:21:08] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18.4
+[18:21:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:21:08] [Server thread/INFO]: Preparing level "20250831-WORLD"
+[18:21:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:21:09] [Server thread/INFO]: Preparing spawn area: 0%
+[18:21:10] [Server thread/INFO]: Preparing spawn area: 0%
+[18:21:10] [Server thread/INFO]: Time elapsed: 795 ms
+[18:21:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:21:10] [Server thread/INFO]: Preparing spawn area: 0%
+[18:21:10] [Server thread/INFO]: Time elapsed: 74 ms
+[18:21:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:21:10] [Server thread/INFO]: Preparing spawn area: 0%
+[18:21:10] [Server thread/INFO]: Time elapsed: 47 ms
+[18:21:10] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.4
+[18:21:10] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[18:21:10] [Server thread/INFO]: [GriefPrevention] Failed to load a claim (ID:0) because its world isn't loaded (yet?).  If this is not expected, delete this claim.
+[18:21:10] [Server thread/INFO]: [GriefPrevention] Failed to load a claim (ID:3) because its world isn't loaded (yet?).  If this is not expected, delete this claim.
+[18:21:10] [Server thread/INFO]: [GriefPrevention] Failed to load a claim (ID:4) because its world isn't loaded (yet?).  If this is not expected, delete this claim.
+[18:21:10] [Server thread/INFO]: [GriefPrevention] 6 total claims loaded.
+[18:21:10] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[18:21:10] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[18:21:10] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[18:21:10] [Server thread/INFO]: [spark] Starting background profiler...
+[18:21:10] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[18:21:10] [Server thread/INFO]: Done preparing level "20250831-WORLD" (2.144s)
+[18:21:10] [Server thread/INFO]: Running delayed init tasks
+[18:21:10] [Server thread/INFO]: Done (11.734s)! For help, type "help"
+[18:21:38] [User Authenticator #0/INFO]: UUID of player Vanessa1360 is df0e6f9b-755d-4cf0-a412-ba896ac27532
+[18:21:38] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [GriefPrevention]
+[18:21:38] [Server thread/INFO]: Vanessa1360 joined the game
+[18:21:38] [Server thread/INFO]: Vanessa1360[/192.168.0.28:50093] logged in with entity id 77 at ([20250831-WORLD]-923.387463528088, 62.46639696306979, 67.70880874570179)
+[18:21:54] [User Authenticator #0/INFO]: UUID of player Gamebuster801 is 3463677f-a213-4ebb-9bf4-3b8ca6a2ad35
+[18:21:55] [Server thread/INFO]: Gamebuster801 joined the game
+[18:21:55] [Server thread/INFO]: Gamebuster801[/192.168.0.11:58729] logged in with entity id 351 at ([20250831-WORLD]-972.5569840019363, 63.0, 92.35885810887824)
+[18:29:19] [Server thread/INFO]: Vanessa1360 was slain by Gamebuster801
+[18:32:02] [Server thread/INFO]: Vanessa1360 was slain by Zombie
+[18:33:25] [Server thread/INFO]: Gamebuster801 lost connection: Disconnected
+[18:33:25] [Server thread/INFO]: Gamebuster801 left the game
+[18:34:12] [Server thread/INFO]: Vanessa1360 lost connection: Disconnected
+[18:34:12] [Server thread/INFO]: Vanessa1360 left the game
